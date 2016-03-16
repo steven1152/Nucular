@@ -1,0 +1,9 @@
+{
+  "name": "Nucular",
+  "version": "0.1.0",
+  "title": "Nucular",
+  "author": "Simdezimon",
+  "homepage": "https://github.com/simdezimon/Nucular",
+  "dependencies": ["base"],
+  "description": "Nuclear power plants, bombs and science."
+}
