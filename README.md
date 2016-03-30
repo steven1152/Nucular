@@ -12,6 +12,8 @@
 - Highly enriched uranium or plutonium is used for an atomic bomb
 - Nuclear explosion increases the biter evolution factor, so using them in masse might be a bad idea
 - The evolution factor will increase by 0.2%, the same amount as destroying an enemy spawner
+ 
+![](http://simdezimon.github.io/screenshot4.jpg)
 
 ![](http://simdezimon.github.io/Resource%20Flow.png)
 
