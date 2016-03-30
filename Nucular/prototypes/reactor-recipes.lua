@@ -6,14 +6,14 @@ data:extend({
     name = "nuclear-fission",
     category = "nuclear",
     subgroup = "nuclear-reactor",
-    energy_required = 0.1,
+    energy_required = 1,
     ingredients = {
-      {type="fluid", name="water", amount=1.6},
+      {type="fluid", name="water", amount=10},
       {type="fluid", name="nuclear-fuel-fluid", amount=1}
     },
     results=
     {
-      {type="fluid", name="water", amount=1.6},
+      {type="fluid", name="hot-steam", amount=10},
       {type="fluid", name="spent-nuclear-fuel-fluid", amount=1},
     }
   },
@@ -24,16 +24,16 @@ data:extend({
     name = "fast-breeder",
     category = "nuclear",
     subgroup = "nuclear-reactor",
-    energy_required = 120,
+    energy_required = 20,
     ingredients = {
-      {type="fluid", name="water", amount=240},
-      {type="fluid", name="nuclear-fuel-fluid", amount=300},
+      {type="fluid", name="water", amount=20},
+      {type="fluid", name="nuclear-fuel-fluid", amount=5},
       {type="item", name="depleted-uranium", amount=1}
     },
     results=
     {
-      {type="fluid", name="water", amount=0},
-      {type="fluid", name="spent-nuclear-fuel-fluid", amount=300.01},
+      {type="fluid", name="fluid-nothing", amount=0},
+      {type="fluid", name="spent-nuclear-fuel-fluid", amount=5},
       {type="item", name="plutonium", amount=1}
     }
   },
@@ -49,7 +49,7 @@ data:extend({
     },
     results=
     {
-      {type="fluid", name="nuclear-fuel-fluid", amount=6000}
+      {type="fluid", name="nuclear-fuel-fluid", amount=100}
     }
   },
   {
@@ -61,7 +61,7 @@ data:extend({
     subgroup = "nuclear-reactor",
     energy_required = 1,
     ingredients = {
-      {type="fluid", name="spent-nuclear-fuel-fluid", amount=6000}
+      {type="fluid", name="spent-nuclear-fuel-fluid", amount=100}
     },
     results=
     {

@@ -39,7 +39,7 @@ data:extend(
       icon = "__Nucular__/graphics/icons/nuclear-fuel-uranium.png",
       subgroup = "nuclear-fuel",
       energy_required = 12,
-      ingredients = {{"enriched-uranium", 10}, {"steel-plate",5}},
+      ingredients = {{"enriched-uranium", 10}, {"steel-plate",1}},
       result="nuclear-fuel"
     },
     {
@@ -49,7 +49,7 @@ data:extend(
       icon = "__Nucular__/graphics/icons/nuclear-fuel-plutonium.png",
       subgroup = "nuclear-fuel",
       energy_required = 12,
-      ingredients = {{"plutonium", 5},{"uranium", 8}, {"steel-plate",5}},
+      ingredients = {{"plutonium", 5},{"uranium", 8}, {"steel-plate",1}},
       result="nuclear-fuel"
     },
     {

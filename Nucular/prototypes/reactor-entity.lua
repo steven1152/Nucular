@@ -1,93 +1,93 @@
 function reactorpipepicturesin()
   return
-  {
-     north =
-        {
-          filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
-          x = 32,
-          width = 32,
-          height = 32,
-          priority = "very-low",
-          frame_count = 1,
-          shift = {0.0, 0}
-        },
-        east =
-        {
-          filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
-          x = 64,
-          width = 32,
-          height = 32,
-          priority = "very-low",
-          frame_count = 1,
-          shift = {0.0, 0}
-        },
-        south =
-        {
-          filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
-          x = 96,
-          width = 32,
-          height = 32,
-          priority = "very-low",
-          frame_count = 1,
-          shift = {0.0, 0}
-        },
-        west =
-        {
-          filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
-          x = 0,
-          width = 32,
-          height = 32,
-          priority = "very-low",
-          frame_count = 1,
-          shift = {0.0, 0}
-        }
-  }
+    {
+      north =
+      {
+        filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
+        x = 32,
+        width = 32,
+        height = 32,
+        priority = "very-low",
+        frame_count = 1,
+        shift = {0.0, 0}
+      },
+      east =
+      {
+        filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
+        x = 64,
+        width = 32,
+        height = 32,
+        priority = "very-low",
+        frame_count = 1,
+        shift = {0.0, 0}
+      },
+      south =
+      {
+        filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
+        x = 96,
+        width = 32,
+        height = 32,
+        priority = "very-low",
+        frame_count = 1,
+        shift = {0.0, 0}
+      },
+      west =
+      {
+        filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
+        x = 0,
+        width = 32,
+        height = 32,
+        priority = "very-low",
+        frame_count = 1,
+        shift = {0.0, 0}
+      }
+    }
 end
 
 function reactorpipepicturesout()
   return
-  {
-     north =
-        {
-          filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
-          x = 96,
-          width = 32,
-          height = 32,
-          priority = "very-low",
-          frame_count = 1,
-          shift = {0.0, 0}
-        },
-        east =
-        {
-          filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
-          x = 0,
-          width = 32,
-          height = 32,
-          priority = "very-low",
-          frame_count = 1,
-          shift = {0.0, 0}
-        },
-        south =
-        {
-          filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
-          x = 32,
-          width = 32,
-          height = 32,
-          priority = "very-low",
-          frame_count = 1,
-          shift = {0.0, 0}
-        },
-        west =
-        {
-          filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
-          x = 64,
-          width = 32,
-          height = 32,
-          priority = "very-low",
-          frame_count = 1,
-          shift = {0.0, 0}
-        }
-  }
+    {
+      north =
+      {
+        filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
+        x = 96,
+        width = 32,
+        height = 32,
+        priority = "very-low",
+        frame_count = 1,
+        shift = {0.0, 0}
+      },
+      east =
+      {
+        filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
+        x = 0,
+        width = 32,
+        height = 32,
+        priority = "very-low",
+        frame_count = 1,
+        shift = {0.0, 0}
+      },
+      south =
+      {
+        filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
+        x = 32,
+        width = 32,
+        height = 32,
+        priority = "very-low",
+        frame_count = 1,
+        shift = {0.0, 0}
+      },
+      west =
+      {
+        filename = "__Nucular__/graphics/entity/reactor-inout-ghost.png",
+        x = 64,
+        width = 32,
+        height = 32,
+        priority = "very-low",
+        frame_count = 1,
+        shift = {0.0, 0}
+      }
+    }
 end
 
 
@@ -109,15 +109,35 @@ data:extend(
       {
         module_slots = 0
       },
-      allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+      allowed_effects = {"productivity"},
       vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
       animation =
       {
-        filename = "__Nucular__/graphics/entity/nuclear-plant.png",
-        frame_count = 1,
-        width = 96,
-        height = 96,
-        shift = {0, 0}
+        north={
+          filename = "__Nucular__/graphics/entity/nuclear-plant.png",
+          frame_count = 1,
+          width = 96,
+          height = 96,
+          shift = {0, 0}
+        },east={
+          filename = "__Nucular__/graphics/entity/nuclear-plant.png",
+          frame_count = 1,
+          width = 96,
+          height = 96,
+          shift = {0, 0}
+        },west={
+          filename = "__Nucular__/graphics/entity/nuclear-plant.png",
+          frame_count = 1,
+          width = 96,
+          height = 96,
+          shift = {0, 0}
+        },south={
+          filename = "__Nucular__/graphics/entity/nuclear-plant-back.png",
+          frame_count = 1,
+          width = 96,
+          height = 96,
+          shift = {0, 0}
+        }
       },
       working_sound =
       {
@@ -131,16 +151,17 @@ data:extend(
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
         apparent_volume = 1.5,
       },
-      crafting_speed = 6,
+      crafting_speed = 1,
       ingredient_count = 4,
 
       energy_source =
       {
+        
         type = "electric",
-        usage_priority = "secondary-input",
+        usage_priority = "primary-input",
         emissions = 0
       },
-      energy_usage = "10kW",
+      energy_usage = "1kW",
 
       crafting_categories = {"nuclear"},
       fluid_boxes =
@@ -227,7 +248,7 @@ data:extend(
       {
         module_slots = 0
       },
-      allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+      allowed_effects = {"productivity"},
       vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
       crafting_speed = 1,
       ingredient_count = 4,
@@ -305,7 +326,7 @@ data:extend(
       {
         module_slots = 0
       },
-      allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+      allowed_effects = { "productivity"},
       vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
       crafting_speed = 1,
       ingredient_count = 4,
@@ -322,7 +343,7 @@ data:extend(
         {
           production_type = "input",
           pipe_covers = pipecoverspictures(),
-          base_area = 10,
+          base_area = 1,
           base_level = 1,
           pipe_connections = { {type="input", position = {-1, 0} }}
         }
