@@ -1,3 +1,4 @@
+require("config")
 require("prototypes.categories")
 require("prototypes.item-groups")
 require("prototypes.items")
@@ -10,6 +11,10 @@ require("prototypes.recipes")
 require("prototypes.weapon-recipes")
 require("prototypes.reactor-recipes")
 require("prototypes.technology")
+require("prototypes.steam-items")
+require("prototypes.steam-entities")
+require("prototypes.steam-recipes")
 
 require("prototypes.resources")
 require("prototypes.autoplace-controls")
+

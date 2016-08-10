@@ -2,6 +2,18 @@ data:extend(
   {
     {
       type = "item-group",
+      name = "steam-boiler",
+      order = "f",
+    inventory_order = "a",
+      icon = "__Nucular__/graphics/icons/steam-boiler.png",
+    },{
+      type = "item-subgroup",
+      name = "steam-boiler-subgroup",
+      group = "steam-boiler",
+      order = "a"
+    },
+    {
+      type = "item-group",
       name = "nuclear",
       order = "e",
       inventory_order = "e",

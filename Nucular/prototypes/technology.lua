@@ -36,6 +36,7 @@ data:extend(
     type = "technology",
     name = "nuclear-reactor",
     icon = "__Nucular__/graphics/technology/reaction.png",
+    icon_size = 128,
     prerequisites = {"advanced-electronics","uranium-processing"},
     effects =
     {
@@ -54,14 +55,6 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "nuclear-fission"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "nuclear-fluid-to-item"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "nuclear-item-to-fluid"
       }
     },
     unit =
@@ -76,6 +69,7 @@ data:extend(
     type = "technology",
     name = "nuclear-reprocessing",
     icon = "__Nucular__/graphics/technology/renewable.png",
+    icon_size = 128,
     prerequisites = {"automation-3","nuclear-reactor"},
     effects =
     {
@@ -119,8 +113,9 @@ data:extend(
   {
     type = "technology",
     name = "particle-physics",
+    icon_size = 128,
     icon = "__Nucular__/graphics/technology/particle-physics.png",
-    prerequisites = {"nuclear-reprocessing", "alien-technology"},
+    prerequisites = {"nuclear-reactor", "alien-technology"},
     effects =
     {
       {
@@ -140,7 +135,7 @@ data:extend(
     type = "technology",
     name = "atomic-bomb",
     icon = "__Nucular__/graphics/technology/atomic-bomb.png",
-    prerequisites = {"nuclear-reprocessing", "alien-technology"},
+    prerequisites = {"uranium-processing"},
     effects =
     {
       {
