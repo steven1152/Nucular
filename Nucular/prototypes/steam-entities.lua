@@ -82,6 +82,7 @@ data:extend(
       type = "burner",
       effectivity = 0.5,
       fuel_inventory_size = 1,
+      emissions = 0.015,
       smoke =
       {
         {
@@ -91,7 +92,7 @@ data:extend(
         }
       }
     },
-      energy_usage = "500kW",
+      energy_usage = "1MW",
       fluid_boxes =
       {
         {

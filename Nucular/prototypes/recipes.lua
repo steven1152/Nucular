@@ -71,6 +71,7 @@ data:extend(
       type = "recipe",
       name = "nuclear-reactor",
       ingredients = {
+        {"nuclear-fuel", 50},
         {"steel-plate", 200},
         {"concrete", 300},
         {"advanced-circuit", 50},

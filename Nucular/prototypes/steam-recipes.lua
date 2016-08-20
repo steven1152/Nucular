@@ -4,7 +4,7 @@ data:extend({
     name = "water-to-steam",
     category = "steam-boiler",
     enabled = true,
-    energy_required = 0.5,
+    energy_required = 0.25,
     ingredients =
     {
       {type="fluid", name="water", amount=1},
@@ -17,14 +17,14 @@ data:extend({
     order = "a"
   },
   {
-    enabled = true,
+    enabled = false,
     type = "recipe",
     name = "steam-boiler",
     energy_required = 5,
     ingredients = {
       {"stone-furnace", 1},
-      {"pipe", 5},
-      {"iron-plate", 5}
+      {"pipe", 10},
+      {"steel-plate", 10}
     },
     result="steam-boiler"
   }

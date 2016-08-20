@@ -1,4 +1,5 @@
 data:extend(
+
 {
   {
     type = "technology",
@@ -43,10 +44,6 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "nuclear-reactor"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "steam-turbine"
       },
       {
         type = "unlock-recipe",
@@ -156,5 +153,30 @@ data:extend(
       time = 30
     },
     order = "f-nuc-e"
+  },
+    {
+    type = "technology",
+    name = "steam-turbine",
+    icon_size = 128,
+    icon = "__Nucular__/graphics/technology/steam-turbine.png",
+    prerequisites = {"electric-engine"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "steam-turbine"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "steam-boiler"
+      }
+    },
+    unit =
+    {
+      count = 100,
+      ingredients = {{"science-pack-1", 1},{"science-pack-2", 1}},
+      time = 30
+    },
+    order = "b-b-b"
   }
 })
