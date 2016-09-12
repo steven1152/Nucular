@@ -1,6 +1,6 @@
 {
   "name": "Beyond",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "title": "Beyond",
   "author": "Simdezimon",
   "dependencies": ["base","Nucular"],

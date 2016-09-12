@@ -522,11 +522,7 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "quantum-microprocessor"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "quantum-microprocessor"
+        recipe = "advanced-processing-unit"
       }
     },
     prerequisites = {"superconducting-magnet"},
