@@ -17,7 +17,7 @@ end)
 
 script.on_event(defines.events.on_trigger_created_entity, function(event)
   if event.entity.name == "radiation-cloud" then
-    game.evolution_factor = game.evolution_factor + 0.002 * (1-game.evolution_factor)
+    game.forces.enemy.evolution_factor = game.forces.enemy.evolution_factor + 0.002 * (1-game.forces.enemy.evolution_factor)
   end
 end)
 
