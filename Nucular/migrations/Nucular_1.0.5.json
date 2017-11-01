@@ -1,0 +1,12 @@
+{
+  "entity":
+  [
+    ["nuclear-reactor", "nucular-reactor"],
+	["steam-turbine", "nucular-steam-turbine"]
+  ],
+  "item":
+  [
+    ["nuclear-reactor", "nucular-reactor"],
+	["steam-turbine", "nucular-steam-turbine"]
+  ]
+}
