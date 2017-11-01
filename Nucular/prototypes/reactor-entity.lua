@@ -2,10 +2,10 @@ data:extend(
   {
     {
       type = "assembling-machine",
-      name = "nuclear-reactor",
+      name = "nucular-reactor",
       icon = "__Nucular__/graphics/icons/nuclear-reactor.png",
       flags = {"placeable-neutral","placeable-player", "player-creation"},
-      minable = {hardness = 0.2, mining_time = 0.5, result = "nuclear-reactor"},
+      minable = {hardness = 0.2, mining_time = 0.5, result = "nucular-reactor"},
       max_health = 300,
       corpse = "big-remnants",
       dying_explosion = "medium-explosion",

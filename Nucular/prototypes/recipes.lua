@@ -69,7 +69,7 @@ data:extend(
     }, {
       enabled = false,
       type = "recipe",
-      name = "nuclear-reactor",
+      name = "nucular-reactor",
       ingredients = {
         {"nuclear-fuel", 50},
         {"steel-plate", 200},
@@ -77,17 +77,17 @@ data:extend(
         {"advanced-circuit", 50},
         {"pipe", 50}
       },
-      result="nuclear-reactor"
+      result="nucular-reactor"
     },  {
       enabled = false,
       type = "recipe",
-      name = "steam-turbine",
+      name = "nucular-steam-turbine",
       ingredients = {
         {"pipe", 20},
         {"electric-engine-unit", 20},
         {"steel-plate", 40}
       },
-      result="steam-turbine"
+      result="nucular-steam-turbine"
     }
   }
 )

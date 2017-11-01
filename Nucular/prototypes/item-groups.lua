@@ -28,7 +28,7 @@ data:extend(
       order = "b"
     },{
       type = "item-subgroup",
-      name = "nuclear-reactor",
+      name = "nucular-reactor",
       group = "nuclear",
       order = "c"
     },{

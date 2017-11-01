@@ -2,10 +2,10 @@ data:extend(
   {
   {
     type = "generator",
-    name = "steam-turbine",
-    icon = "__Nucular__/graphics/icons/steam-turbine.png",
+    name = "nucular-steam-turbine",
+    icon = "__Nucular__/graphics/icons/nucular-steam-turbine.png",
     flags = {"placeable-neutral","player-creation"},
-    minable = {mining_time = 1, result = "steam-turbine"},
+    minable = {mining_time = 1, result = "nucular-steam-turbine"},
     max_health = 300,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -43,7 +43,7 @@ data:extend(
     },
     horizontal_animation =
     {
-      filename = "__Nucular__/graphics/entity/steam-turbine-horizontal.png",
+      filename = "__Nucular__/graphics/entity/nucular-steam-turbine-horizontal.png",
       width = 246,
       height = 137,
       frame_count = 32,
@@ -52,7 +52,7 @@ data:extend(
     },
     vertical_animation =
     {
-      filename = "__Nucular__/graphics/entity/steam-turbine-vertical.png",
+      filename = "__Nucular__/graphics/entity/nucular-steam-turbine-vertical.png",
       width = 155,
       height = 186,
       frame_count = 32,

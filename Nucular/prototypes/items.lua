@@ -56,22 +56,22 @@ data:extend(
   },
   {
     type = "item",
-    name = "nuclear-reactor",
+    name = "nucular-reactor",
     icon = "__Nucular__/graphics/icons/nuclear-reactor.png",
     flags = {"goes-to-quickbar"},
     subgroup = "nuclear-structure",
-    place_result = "nuclear-reactor",
+    place_result = "nucular-reactor",
     order = "a",
     stack_size = 10
   },
   
   {
     type = "item",
-    name = "steam-turbine",
-    icon = "__Nucular__/graphics/icons/steam-turbine.png",
+    name = "nucular-steam-turbine",
+    icon = "__Nucular__/graphics/icons/nucular-steam-turbine.png",
     flags = {"goes-to-quickbar"},
     subgroup = "nuclear-structure",
-    place_result = "steam-turbine",
+    place_result = "nucular-steam-turbine",
     order = "b",
     stack_size = 10
   },

@@ -43,7 +43,7 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "nuclear-reactor"
+        recipe = "nucular-reactor"
       },
       {
         type = "unlock-recipe",
@@ -143,7 +143,7 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "steam-turbine"
+        recipe = "nucular-steam-turbine"
       },
       {
         type = "unlock-recipe",

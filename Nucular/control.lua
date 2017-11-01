@@ -5,7 +5,7 @@ require "scripts.reactor"
 function builtEntity(event)
   if event.created_entity.name == "steam-boiler" then
     steamBoilerBuilt(event)
-  elseif event.created_entity.name == "nuclear-reactor" then
+  elseif event.created_entity.name == "nucular-reactor" then
     reactorBuilt(event)
   end
 end
