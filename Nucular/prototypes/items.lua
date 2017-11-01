@@ -2,15 +2,6 @@ data:extend(
 {
   {
     type = "item",
-    name = "uranium-ore",
-    icon = "__Nucular__/graphics/icons/uranium-ore-icon.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "nuclear-intermediate",
-    order = "a",
-    stack_size = 50
-  },
-  {
-    type = "item",
     name = "uranium",
     icon = "__Nucular__/graphics/icons/uranium.png",
     flags = {"goes-to-main-inventory"},

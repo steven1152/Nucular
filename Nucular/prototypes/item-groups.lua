@@ -11,13 +11,6 @@ data:extend(
       name = "steam-boiler-subgroup",
       group = "steam-boiler",
       order = "a"
-    },
-    {
-      type = "item-group",
-      name = "nuclear",
-      order = "e",
-      inventory_order = "e",
-      icon = "__Nucular__/graphics/icons/nuclear.png",
     },{
       type = "item-subgroup",
       name = "nuclear-intermediate",

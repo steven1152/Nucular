@@ -88,15 +88,6 @@ data:extend(
         {"steel-plate", 40}
       },
       result="steam-turbine"
-    },{
-      type = "recipe",
-      name = "plutonium-science-pack",
-      enabled = false,
-      energy_required = 12,
-      ingredients = {{"plutonium", 1}
-      },
-      result = "alien-science-pack",
-      result_count = 2,
     }
   }
 )

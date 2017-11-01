@@ -14,7 +14,3 @@ require("prototypes.technology")
 require("prototypes.steam-items")
 require("prototypes.steam-entities")
 require("prototypes.steam-recipes")
-
-require("prototypes.resources")
-require("prototypes.autoplace-controls")
-
