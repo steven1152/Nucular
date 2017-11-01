@@ -10,7 +10,13 @@ data:extend(
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     effectivity = 1,
-    fluid_usage_per_tick = 1.0,
+    fluid_usage_per_tick = 0.34,
+    maximum_temperature = 250,
+    fluid_input =
+    {
+      name = "hot-steam",
+      amount = 0.0
+    },
     resistances =
     {
       {
