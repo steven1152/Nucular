@@ -109,7 +109,7 @@ data:extend(
   },
   {
     type = "technology",
-    name = "atomic-bomb",
+    name = "nucular-atomic-bomb",
     icon = "__Nucular__/graphics/technology/atomic-bomb.png",
     prerequisites = {"uranium-processing"},
     effects =
