@@ -4,6 +4,7 @@ data:extend(
   {
     type = "technology",
     name = "uranium-processing",
+    icon_size = 64,
     icon = "__Nucular__/graphics/technology/uranium.png",
     prerequisites = {"sulfur-processing"},
     effects =
@@ -90,6 +91,7 @@ data:extend(
   {
     type = "technology",
     name = "breeder-reactor",
+    icon_size = 64,
     icon = "__Nucular__/graphics/technology/plutonium.png",
     prerequisites = {"nuclear-reactor"},
     effects =
@@ -110,6 +112,7 @@ data:extend(
   {
     type = "technology",
     name = "nucular-atomic-bomb",
+    icon_size = 64,
     icon = "__Nucular__/graphics/technology/atomic-bomb.png",
     prerequisites = {"uranium-processing"},
     effects =
